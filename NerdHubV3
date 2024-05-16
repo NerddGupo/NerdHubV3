@@ -64,14 +64,6 @@ ScriptTab:AddButton({
 })
 
 ScriptTab:AddButton({
-	Name = "Big Paint Ball",
-	loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
-	Callback = function()
-		
-  	end    
-})
-
-ScriptTab:AddButton({
 	Name = "Arsenal",
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
 	Callback = function()
@@ -108,13 +100,6 @@ ScriptTab:AddButton({
 	Name = "Slap Battles (Slap Aura Will Kick/Ban)",
 	Callback = function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/TestMain/main/SLAPBATTLESGUI5")))()
-  	end    
-})
-
-ScriptTab:AddButton({
-	Name = "Soon!",
-	Callback = function()
-		print("Hello")
   	end    
 })
 
